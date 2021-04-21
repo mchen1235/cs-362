@@ -2,6 +2,11 @@ import sys
 import math
 
 def main():
+	#error handle wrong command-line argument count-
+	if(len(sys.argv) != 2):
+		print(f"Correct Usage: {sys.argv[0]} <year #>")
+		return 0
+
 	#get the number from the command line
 	number = int(sys.argv[1])
 
