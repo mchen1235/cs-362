@@ -7,10 +7,14 @@ def main():
 		print(f"Correct Usage: {sys.argv[0]} <year #>")
 		return 0
 
-	#get the number from the command line
-	number = int(sys.argv[1])
+	#Check if each char of the string is a number
+	for i in range(len(sys.argv[1])):
+		if sys.argv[1][i] < '0' or sys.argv[1][i] > '9':
+			print("Error: The number you enter must be an integer")
+			return 0
 
-	#conditional for results
+	#get the number from the command line and set a bool
+	number = int(sys.argv[1])
 	leap = " not"
 		
 	#check if the year is a leap year
