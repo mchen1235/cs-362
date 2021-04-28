@@ -1,10 +1,4 @@
-def full_name():
-    first = input("Enter the first name: ")
-    last = input("Enter the last name: ")
-
+def full_name(first, last):
     full = first + " " + last
-    print(f"The full name is {full}")
 
     return full
-
-full_name()
