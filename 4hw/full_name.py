@@ -7,5 +7,4 @@ def full_name():
 
     return full
 
-
 full_name()

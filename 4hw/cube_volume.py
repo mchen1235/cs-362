@@ -1,10 +1,4 @@
-def cube():
-    edge_length = int(input("What is the length of the edge of your cube: "))
-    
+def cube(edge_length):
     volume = edge_length * edge_length * edge_length
-    print(f"The volume of your cube is {volume}")
 
     return volume
-
-
-cube()
