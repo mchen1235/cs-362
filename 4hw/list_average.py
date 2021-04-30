@@ -5,6 +5,6 @@ def list_average(new_list):
     #calculate average
     for i in new_list:
         total += i
-    average = total / elements
+    average = total / len(new_list)
 
     return average
