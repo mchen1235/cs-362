@@ -12,6 +12,9 @@ class testCaseYear(unittest.TestCase):
     def test_3(self):
         self.assertFalse(ly.leap_year(500))
 
+    def test_4(self):
+        self.assertTrue(ly.leap_year(400))
+
 class testCaseFizzbuzz(unittest.TestCase):
     def test1(self):
         self.assertEqual(fb.fizzbuzz(0), "")
