@@ -9,3 +9,5 @@ def leap_year(number):
 			return True
 
 	return False
+
+leap_year(400)
