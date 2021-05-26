@@ -1,2 +1,5 @@
 def fizzbuzz(num):
-    pass    
+    str = ""
+
+    if num < 1:
+        return str    
