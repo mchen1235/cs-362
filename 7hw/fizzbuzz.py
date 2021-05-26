@@ -5,7 +5,9 @@ def fizzbuzz(num):
         return string
 
     for i in range(1, int(num) + 1):
-        if int(i) % 3 == 0:
+        if int(i) % 15 == 0:
+            string += "FizzBuzz "
+        elif int(i) % 3 == 0:
             string += "Fizz "
         elif int(i) % 5 == 0:
             string += "Buzz "
